@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <Button
+           android:layout_width="0dp"
+           android:layout_height="100dp"
+           android:textSize="22sp"
+           android:layout_weight="1"
+           android:text="Open Camera"
+           android:id="@+id/camera_id"/>
+
+       <Button
+           android:layout_width="0dp"
+           android:layout_height="100dp"
+           android:layout_weight="1"
+           android:text="Set Wallpaper"
+           android:textSize="22sp"
+           android:id="@+id/wallpaper_id"/>
+
+   </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cat_wallpaper"
+
+        android:id="@+id/image_id"/>
+</LinearLayout>
